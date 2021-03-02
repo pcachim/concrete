@@ -4,7 +4,7 @@ attrs==20.3.0
 bleach==3.3.0
 defusedxml==0.6.0
 entrypoints==0.3
-idna==3.1
+idna
 ipython-genutils==0.2.0
 Jinja2==2.11.3
 jsonschema==3.2.0
