@@ -10,3 +10,5 @@ Notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/
 Notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gist/pcachim/16b061ee5e2e911899ce34ffb53f5271?urlpath=noteboooks%2Findex.ipynb)
 JupyterLab: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gist/pcachim/16b061ee5e2e911899ce34ffb53f5271?urlpath=lab%2Ftree%2Findex.ipynb)
 Voila: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gist/pcachim/16b061ee5e2e911899ce34ffb53f5271?urlpath=voila%2Frender%2Findex.ipynb)
+
+https://jovian.ai/docs/
