@@ -1,4 +1,4 @@
-# Prject jupyter-concrete
+# Project jupyter-concrete
 
 This project aims to develop a series of tools ([Jupyter Notebooks](https://jupyter.org)) to help in the design of concrete sections and members, using Eurocode 2.
 
