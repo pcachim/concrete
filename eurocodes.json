@@ -240,7 +240,9 @@
                     "weigh": 77.0
                 }
             },
-            "Steel": {},
+            "Steel": {
+                "lixo": 2
+            },
             "Timber": {
                 "Classes": {
                     "C14": {
@@ -306,6 +308,21 @@
                     "C27": {
                         "Type": "timber",
                         "fmk": 27.0,
+                        "ft0k": 16.0,
+                        "ft90k": 0.4,
+                        "fc0k": 22.0,
+                        "fc90k": 2.6,
+                        "fvk": 4.0,
+                        "E0mean": 11500.0,
+                        "E0k": 7700.0,
+                        "E90k": 380.0,
+                        "Gmean": 720.0,
+                        "rhok": 370.0,
+                        "rhom": 450.0
+                    },
+                    "C30": {
+                        "Type": "timber",
+                        "fmk": 0.0,
                         "ft0k": 16.0,
                         "ft90k": 0.4,
                         "fc0k": 22.0,
@@ -468,9 +485,14 @@
                 ],
                 "LoadDuration": {
                     "Permanent": 0,
+                    "Perm": 0,
                     "Long Duration": 1,
                     "Medium Duration": 2,
                     "Short Duration": 3,
+                    "Long": 1,
+                    "Medium": 2,
+                    "Short": 3,
+                    "Inst": 4,
                     "Instantaneous": 4
                 },
                 "Parameters": {
@@ -556,7 +578,7 @@
                                 0.9
                             ]
                         },
-                        "plywood": {
+                        "plywood-3": {
                             "Class 1": [
                                 0.6,
                                 0.7,
@@ -580,7 +602,28 @@
                             ]
                         }
                     },
-                    "kdef": {}
+                    "kdef": {
+                        "timber": {
+                            "Class 1": 0.6,
+                            "Class 2": 0.8,
+                            "Class 3": 2.0
+                        },
+                        "glulam": {
+                            "Class 1": 0.6,
+                            "Class 2": 0.8,
+                            "Class 3": 2.0
+                        },
+                        "lvl": {
+                            "Class 1": 0.6,
+                            "Class 2": 0.8,
+                            "Class 3": 2.0
+                        },
+                        "plywood-3": {
+                            "Class 1": 0.6,
+                            "Class 2": 0.8,
+                            "Class 3": 2.0
+                        }
+                   }
                 }
             },
             "Masonry": {
